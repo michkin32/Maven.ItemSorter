@@ -1,5 +1,7 @@
 package rocks.zipcode.io;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -9,6 +11,7 @@ import java.util.Comparator;
  */
 public class ItemSorter {
     Item[] itemsNotSorted;
+
     public ItemSorter(Item[] items) {
         itemsNotSorted =  items;
 
@@ -21,4 +24,5 @@ public class ItemSorter {
 
         return itemsNotSorted;
     }
+
 }
